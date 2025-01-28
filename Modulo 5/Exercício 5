@@ -9,3 +9,30 @@ func StringToNumber(str string) int {
     number, _ := strconv.Atoi(str)
   return number
 }
+
+
+
+//// OUTRA MANEIRA ////
+
+package kata
+// Essa função do GO strconv.Atoi precisa do pacote abaixo
+import (
+  "strconv"
+)
+// Essa função vai retornar um inteiro recebendo uma str string
+func StringToNumber(s string) int {
+  // Declarei uma variável n inteira -> que será o resultado final
+  var n int
+  // Declarei uma variável erro pois a função sempre retorna um possível erro também
+  var err error
+  // Aqui é  a função
+  n, err = strconv.Atoi(s)
+  if n>0 {
+    return n
+  }
+  // Notação que é usada nessa função
+  if err != nil {
+    return 0
+  }
+  return n
+}
