@@ -28,3 +28,17 @@ func main() {
 //   }
 //     return Soma
 // }
+
+//// OUTRO DIA NO CODEWARS...
+// package kata
+
+// func PositiveSum(numbers []int) int {
+//   var s int
+//   // Para todos índices (_) os elementos de numbers vão ser chamados de x...
+//   for _, x := range numbers {
+//     if x>0 {
+//       s = s + x
+//     }            
+//   }
+//   return s
+// }
