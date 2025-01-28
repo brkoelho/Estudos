@@ -22,3 +22,21 @@ func CountPositivesSumNegatives(numbers []int) []int {
 // Se n > 0 -> contar qtos -> fazer variável para contar
 // Se n < 0 -> iremos somar os negativos
 // Retornar no formato de lista: [QtdPositivos, SomaNegativos]
+
+
+//// Fiz esse novo modo tbm sem erros :D
+
+// package kata
+
+// func CountPositivesSumNegatives(numbers []int) []int {
+//   var x, sn, sp int
+//   for _, x = range numbers {
+//     if x>0 {
+//       sp = sp + 1
+//     }
+//     if x<0 {
+//       sn = sn + x
+//     }
+//   }
+//   return []int{sp, sn}
+// }
