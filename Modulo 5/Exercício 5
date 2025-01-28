@@ -36,3 +36,31 @@ func StringToNumber(s string) int {
   }
   return n
 }
+
+
+/////// PODE SER SUPER SIMPLES O UNDERLINE PODE SER USADO SEMPRE PRA IGNORAR PARÂMETROS (((UTIL)))
+
+package kata
+
+import (
+  "strconv"
+)
+
+func StringToNumber(s string) int {
+  var n int
+  n, _ = strconv.Atoi(s)
+  return n
+}
+
+////// MAIS SIMPLES AINDA
+
+package kata
+
+import (
+  "strconv"
+)
+
+func StringToNumber(s string) int {
+    n, _ := strconv.Atoi(s)
+  return n
+}
