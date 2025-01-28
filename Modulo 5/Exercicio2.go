@@ -25,3 +25,15 @@ func main() {
 //     }
 //   return Sum
 // }
+
+//// Outro jeito que fiz
+
+// package kata
+
+// func Summation(n int) int {
+//   var s,i int
+//   for i=1;i<=n;i++ {
+//     s = s + i
+//   }
+//   return s  
+// }
