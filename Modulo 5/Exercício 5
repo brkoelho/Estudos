@@ -1,0 +1,11 @@
+package kata
+// Steph mandou pesquisar site... Essa função do go STRconv.AtoI precisa do pacote abaixo
+import (
+  "strconv"
+)
+// Essa função vai retornar INT inteiro recebendo uma STR string
+func StringToNumber(str string) int {
+    // Esse daqui é o padrão que estava no site que pesquisei
+    number, _ := strconv.Atoi(str)
+  return number
+}
