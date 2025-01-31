@@ -7,8 +7,7 @@ import (
 	s "strings" //É outra função...
 )
 
-// Igual steph disse é o par do package main...
-func main() {
+func main() { // Igual steph disse é o par do package main...
 	p.Println("Cheguei Brasil!")
 	p.Println(s.Split("XD", ""))
 }
